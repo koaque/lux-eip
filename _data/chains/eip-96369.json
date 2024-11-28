@@ -1,0 +1,25 @@
+{
+  "name": "Lux Mainnet",
+  "chain": "Lux",
+  "rpc": [
+    "https://api.lux.network"
+  ],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "LUX",
+    "symbol": "LUX",
+    "decimals": 18
+  },
+  "features": [{ "name": "EIP155" }, { "name": "EIP1559" }],
+  "infoURL": "https://lux.network",
+  "shortName": "eth",
+  "chainId": 1,
+  "networkId": 1,
+  "icon": "luxnetwork",
+  "explorers": [{
+    "name": "Lux Network Explorer",
+    "url": "https://explore.lux.network",
+    "icon": "luxnetwork",
+    "standard": "EIP3091"
+  }]
+}
